@@ -1,0 +1,36 @@
+*{margin: 0;padding: 0;border: 0; box-sizing: border-box;outline: 0;}
+ /*resetando os estilos css*/
+
+@import "partials/colors";
+@import "partials/header";
+@import "partials/layout";
+
+/*importando as cores da pasta partials*/
+/*importar sempre acima da tag body*/
+
+body{
+    background-color: $primary-normal;
+    font-family:'Sora', sans-serif;
+    width: 100%;
+    height: 100vh;
+    position: relative;  
+}
+
+button{
+    font-family: 'Sora', sans-serif;
+    cursor: pointer;
+}
+
+svg{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
